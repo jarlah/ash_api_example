@@ -52,7 +52,7 @@ defmodule AshApiExample.MixProject do
       {:dns_cluster, "~> 0.1.1"},
       {:plug_cowboy, "~> 2.5"},
       # ash
-      {:ash, "~> 2.17"},
+      {:ash, "~> 2.17.10"},
       {:ash_admin, "~> 0.9.8"},
       {:ash_postgres, "~> 1.3"},
       {:ash_phoenix, "~> 1.2"},

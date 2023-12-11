@@ -16,7 +16,9 @@ defmodule AshApiExample.Foos.Foo do
   end
 
   relationships do
-    belongs_to :bar, AshApiExample.Bars.Bar
+    belongs_to :bar, AshApiExample.Bars.Bar do
+      api AshApiExample.Bars
+    end
   end
 
   actions do
